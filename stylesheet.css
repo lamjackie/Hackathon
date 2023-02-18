@@ -1,1 +1,10 @@
+.scroll1 {
+  float: right;
+  padding-left: 100px
+}
 
+.scroll2 {
+  float: right;
+  padding-left: 100px;
+  padding-right: 100px;
+}
