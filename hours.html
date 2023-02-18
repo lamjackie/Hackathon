@@ -6,19 +6,6 @@
 </head>  
 <body>
   
-  <script>
-    function addRow() {
-var tablerow = document.getElementById("Table");
-var row = tablerow.insertrow(-1);
-var row1 = row.insertCell(0);
-var row2 = row.insertCell(1);
-var row3 = row.insertCell(2);
-row1.innerHTML="New";
-row2.innerHTML="New";
-row3.innerHTML="New";
-}
-  </script>
-  
 <table class="hourstable">
   <tr>
   <th>Hours Needed</th>
@@ -31,5 +18,23 @@ row3.innerHTML="New";
     <td></td>
   </tr>
 </table>
+  
+<br>
+  
+<button type="button" onclick="myFunction()">Add Row</button>
+  
+    <script>
+    function addRow() {
+var tablerow = document.getElementById("Table");
+var row = tablerow.insertrow(-1);
+var row1 = row.insertCell(0);
+var row2 = row.insertCell(1);
+var row3 = row.insertCell(2);
+row1.innerHTML="New";
+row2.innerHTML="New";
+row3.innerHTML="New";
+}
+  </script>
+  
 </body>
 </html>
