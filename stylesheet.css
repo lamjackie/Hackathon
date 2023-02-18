@@ -16,14 +16,14 @@
 /* Nav Bar */
 .nav-table {
 position: absolute;
-width: 100%;}
+width:100%;}
 
 .right {
 position: absolute;
-right:100px;
+float:right;
 }
 
 .left{
 position: absolute;
-left:100px;
+left:left;
 }
