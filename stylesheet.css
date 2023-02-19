@@ -16,8 +16,7 @@ width:100%;}
 text-align: center;}
 
 #hourstable {
-  border:1px solid;
-  border-color: black;
+  border:2px solid black;
 }
 
 .hoursbtn {
@@ -29,7 +28,5 @@ left: 672.2px;
 top: 566.38px;
 
 background: #00C3A1;
-border-radius: 18px;
-  
-}
+border-radius: 18px;}
 
