@@ -56,6 +56,9 @@ font-size:15;
 
 #creditstable, #creditstr, #creditstd, #creditsth {
   border:2px solid black;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
 }
 
 .color-block2 {background-color:#54D4F0;
