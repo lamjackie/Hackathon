@@ -38,6 +38,11 @@
   
 <br>
   
+<p>Hours Left To Complete:</p>
+<p id="hourleft"></p>
+
+<br>
+  
 <script>
 var button = document.createElement("button");
 button.innerHTML = "Submit";
@@ -49,17 +54,19 @@ body.appendChild(button);
   var hourneed = document.getElementById("hourneed").value;
   var hourcomp = document.getElementById("hourcomp").value;
   var hourdesc = document.getElementById("hourdesc").value;
-  var hourleft = document.createElement("p").value;
+  var hourleft = document.getElementById("hourleft").value;
     
   hourleft = hourneed - hourcomp;
   
   document.getElementById("hourneed").innerHTML = hourneed;
   document.getElementById("hourcomp").innerHTML = hourcomp;
   document.getElementById("hourdesc").innerHTML = hourdesc;
-  document.getElementByTag("p").innerHTML = hourleft;
+  document.getElementById("hourleft").innerHTML = hourleft;
 
 });
 </script>
+
+<br>
   
 <button type="button" onclick="myFunction()">Add Row</button>
 
