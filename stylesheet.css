@@ -30,3 +30,26 @@ top: 566.38px;
 background: #00C3A1;
 border-radius: 18px;}
 
+.color-block {background-color:#54D4F0;
+  width:100%;
+  height:300px;}
+
+.right {
+position: absolute;
+width: 257px;
+height: 79px;
+left: 672px;
+top: 319px;}
+
+.right2 {position: absolute;
+width: 674px;
+height: 74px;
+left: 672px;
+top: 422px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+color: #000000;}
