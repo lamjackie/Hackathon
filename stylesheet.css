@@ -49,11 +49,27 @@ height: 400px;}
 .hoursbtn{
   color:white;
   background-color:#00C3A1;
-  font-size:25px;  
+  font-size:20px;  
   text-align:center;
   border:none;
   border-radius:18px;
-  padding: 10px 50px;
+  padding: 10px 30px;
+}
+
+.hoursbtn:hover{
+  background-color:background: rgba(0, 195, 161, 0.62);
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+}
+
+.creditsbtn{
+  color:white;
+  background-color:#00C3A1;
+  font-size:20px;  
+  text-align:center;
+  border:none;
+  border-radius:18px;
+  padding: 10px 30px;
 }
 
 .hoursbtn:hover{
