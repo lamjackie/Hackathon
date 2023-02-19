@@ -24,9 +24,12 @@ table, tr, td, th {
 }
 
 .color-block2 {background-color:#54D4F0;
-  width:100%;
-  height:150px;}
-
+position: absolute;
+width: 1508px;
+height: 272px;
+left: -34px;
+  top: 2428px;}
+  
 .right {text-align: right;
 position: absolute;
 width: 257px;
@@ -70,4 +73,4 @@ color: #001664;}
   
 .bunny {position: absolute;
 left: 118px;
-top: 223px;}
+top: 100px;}
