@@ -27,18 +27,6 @@ text-align: center;}
   top:1000;
   }
 
-h2 {text-align: right;
-font-family: 'Barlow';
-font-style: normal;
-font-size: 40px;
-color: #000000;}
-
-.right2 {text-align: right;
-font-family: 'Inter';
-font-style: normal;
-font-size: 20px;
-color: #000000;}
-
 .nav-table.nav-td {text-decoration: none;
 text-align: "center";}
   
@@ -55,5 +43,5 @@ text-align: center;
 color: #001664;}
   
 .bunny {
-width: 300px;
-height: 300px;}
+width: 400px;
+height: 400px;}
