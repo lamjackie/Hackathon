@@ -19,3 +19,17 @@ text-align: center;}
   border:1px solid;
   border-color: black;
 }
+
+.hoursbtn {
+  
+position: absolute;
+width: 226.49px;
+height: 79.1px;
+left: 683px;
+top: 577px;
+
+background: rgba(0, 195, 161, 0.62);
+border-radius: 18px;
+  
+}
+
