@@ -9,6 +9,17 @@
 
 .nav-table 
 {width:100%}
+
+h2 {font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;}
+
+p{font-family: 'Inter';
+font-style: normal;
+font-weight:200;
+font-size: 22px;
+line-height: 39px;}
  
 .team-greet {
 text-align: center;}
