@@ -8,9 +8,12 @@
   padding-left: 100px;
   padding-right: 100px;
 }
-.nav-table {
-position: absolute;
-width:100%;}
+.nav-table 
+{position: absolute;
+width: 1443px;
+height: 103px;
+left: 0px;
+top: 0px;}
  
 .team-greet {
 text-align: center;}
