@@ -1,20 +1,14 @@
 .scroll1 {
   float: right;
-  padding-left: 100px;
-}
+  padding-left: 100px;}
 
 .scroll2 {
   float: right;
   padding-left: 100px;
-  padding-right: 100px;
-}
-.nav-table 
-{position: absolute;
-width: 1443px;
-height: 103px;
-left: 0px;
-top: 0px;}
+  padding-right: 100px;}
 
+.nav-table 
+{width:100%}
  
 .team-greet {
 text-align: center;}
@@ -31,7 +25,7 @@ text-align: center;}
   width:100%;
   height:150px;}
 
-.right {text-align: right;
+h2 {text-align: right;
 font-family: 'Barlow';
 font-style: normal;
 font-weight: 700;
@@ -66,8 +60,6 @@ align-items: center;
 text-align: center;
 color: #001664;}
   
-.bunny {position: absolute;
+.bunny {
 width: 300px;
-height: 300px;
-left: 118px;
-top: 200x;}
+height: 300px;}
