@@ -18,3 +18,84 @@
      </tr>
     </table>
     
+    <hr>
+    <br>
+    
+    <table id="creditstable">
+      <tr id="creditstable">
+        <th>Credits Req.</th>
+        <th>Credits Still Needed</th>
+        <th>Credits Finished</th>
+        <th>Subject</th>
+      </tr>
+      <tr id="creditstable">
+        <td>a</td>
+        <td>a</td>
+        <td>a</td>
+        <td>English</td>
+      </tr>
+      <tr id="creditstable">
+        <td>a</td>
+        <td>a</td>
+        <td>a</td>
+        <td>Math</td>
+      </tr>
+      <tr id="creditstable">
+        <td>a</td>
+        <td>a</td>
+        <td>a</td>
+        <td>Science</td>
+      </tr>
+      <tr id="creditstable">
+        <td>a</td>
+        <td>a</td>
+        <td>a</td>
+        <td>History</td>
+      </tr>
+      <tr id="creditstable">
+        <td>a</td>
+        <td>a</td>
+        <td>a</td>
+        <td>Arts</td>
+      </tr>
+      <tr id="creditstable">
+        <td>a</td>
+        <td>a</td>
+        <td>a</td>
+        <td>Arts</td>
+      </tr>
+      <tr id="creditstable">
+        <td>a</td>
+        <td>a</td>
+        <td>a</td>
+        <td>CTE</td>
+      </tr>
+      <tr id="creditstable">
+        <td>a</td>
+        <td>a</td>
+        <td>a</td>
+        <td>PE</td>
+      </tr>
+    </table>
+    
+<br>
+    
+<button type="button" onclick="myFunction()">Add Row</button>
+
+<script>
+function myFunction() {
+  var table = document.getElementById("creditstable");
+  var row = table.insertRow(-1);
+  var cell1 = row.insertCell(0);
+  var cell2 = row.insertCell(1);
+  var cell3 = row.insertCell(2);
+  var cell4 = row.insertCell(3);
+  cell1.innerHTML = "NEW CELL1";
+  cell2.innerHTML = "NEW CELL2";
+  cell3.innerHTML = "NEW CELL2";
+  cell4.innerHTML = "NEW CELL2";
+}
+</script>
+    
+</body>
+</html>
