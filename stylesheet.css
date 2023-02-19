@@ -17,13 +17,3 @@
 .nav-table {
 position: absolute;
 width:100%;}
-
-.right {
-position: absolute;
-float:right;
-}
-
-.left{
-position: absolute;
-left:left;
-}
