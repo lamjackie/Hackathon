@@ -140,4 +140,13 @@ height: 400px;}
   background-color:rgba(0, 195, 161, 0.62);
 }
 
+button {
+  margin-top: 20px;
+  line-height: 60px;
+  font-weight: bold;
+  padding: 0 40px;
+  background: #54D4F0;
+  border: none;
+}
+
 
