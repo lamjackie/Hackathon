@@ -27,18 +27,9 @@ text-align: center;}
   width:100%;
   height:150px;}
 
-.right {
-position: absolute;
-width: 257px;
-height: 79px;
-left: 672px;
-top: 319px;}
+.right {text-align: right;
 
-.right2 {position: absolute;
-width: 674px;
-height: 74px;
-left: 672px;
-top: 422px;
+.right2 {text-align: right;
 
 font-family: 'Inter';
 font-style: normal;
