@@ -30,13 +30,36 @@
   <th id="hoursth">Description of Service Activity</th>
   </tr>
   <tr id="hourstr">
-    <td id="hourstd">a</td>
-    <td id="hourstd">a</td>
-    <td id="hourstd">a</td>
+    <td id="hourstd"><imput type="number" id="hourneed" hourneed="hourneed"></td>
+    <td id="hourstd"><input type="number" id="hourcomp" hourcomp="hourcomp"></td>
+    <td id="hourstd"><input type="text" id="hourdesc" hourdesc="hourdesc"></td>
   </tr>
 </table>
   
 <br>
+  
+<script>
+var button = document.createElement("button");
+button.innerHTML = "Submit";
+
+var body = document.getElementsByTagName("body")[0];
+body.appendChild(button);
+
+  button.addEventListener ("click", function() {
+  var hourneed = document.getElementById("hourneed").value;
+  var hourcomp = document.getElementById("hourcomp").value;
+  var hourdesc = document.getElementById("hourdesc").value;
+  var hourleft = document.createElement("p").value;
+    
+  hourleft = hourneed - hourcomp;
+  
+  document.getElementById("hourneed").innerHTML = hourneed;
+  document.getElementById("hourcomp").innerHTML = hourcomp;
+  document.getElementById("hourdesc").innerHTML = hourdesc;
+  document.getElementByTag("p").innerHTML = hourleft;
+
+});
+</script>
   
 <button type="button" onclick="myFunction()">Add Row</button>
 
