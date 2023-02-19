@@ -14,11 +14,12 @@ width: 1443px;
 height: 103px;
 left: 0px;
 top: 0px;}
+
  
 .team-greet {
 text-align: center;}
 
-#hourstable {
+#hourstable, #hourstr, #hourstd, #hoursth {
   border:2px solid black;
 }
 
