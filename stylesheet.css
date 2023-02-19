@@ -12,9 +12,6 @@ background-color:#FBFBFB;
   padding-left: 100px;
   padding-right: 100px;}
 
-.nav-table 
-{width:100%}
-
 a.one:link {color:#000000}
 a.one.hover {color:#cccccc}
 
@@ -71,8 +68,8 @@ font-size:15;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 15px;
-line-height: 29px;
+font-size: 13px;
+width: 100%;
 color: #000000;}
 
 .nav-td {text-align: center;
@@ -149,7 +146,4 @@ button {
   border: none;
 }
 
-#credneeden, #credneedma, #credneedsc, #credneedhi, #credneedar, #credneedct, #credneedpe {
-  text-align: center;
-}
 
