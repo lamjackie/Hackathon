@@ -149,4 +149,7 @@ button {
   border: none;
 }
 
+#credneeden, #credneedma, #credneedsc, #credneedhi, #credneedar, #credneedct, #credneedpe {
+  text-align: center;
+}
 
