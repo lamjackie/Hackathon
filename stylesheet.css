@@ -15,7 +15,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 40px;}
 
-p{font-family: 'Inter';
+.Path {font-family: 'Inter';
 font-style: normal;
 font-weight:200;
 font-size: 22px;
@@ -59,13 +59,14 @@ color: #000000;}
 .color-block {
 background-color:#54D4F0;
 width: 100%;
-height: 218px;
+height: 200px;
 top: 400px;
 font-family: 'Inter';
 font-style: normal;
 font-weight:300;
 font-size: 25px;
-padding: 150px 0px;
+padding-top: 100px;
+padding-bottom: 100px;
 vertical-align: middle;
 align-items: center;
 text-align: center;
