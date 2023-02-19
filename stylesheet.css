@@ -8,12 +8,14 @@
   padding-left: 100px;
   padding-right: 100px;
 }
+.nav-table {
+position: absolute;
+width:100%;}
+ 
+.team-greet {
+text-align: center;}
 
 #hourstable {
   border:1px solid;
   border-color: black;
 }
-/* Nav Bar */
-.nav-table {
-position: absolute;
-width:100%;}
