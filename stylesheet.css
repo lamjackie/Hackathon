@@ -13,6 +13,14 @@
 .team-greet {
 text-align: center;}
 
+.team-td {font-family: 'Inter';
+font-style: normal;
+font-size:15;}
+
+.team-td {font-family: 'Inter';
+font-style: normal;
+font-size:13;}
+
 #hourstable, #hourstr, #hourstd, #hoursth {
   border:2px solid black;
 }
@@ -45,8 +53,9 @@ height: 218px;
 top: 400px;
 font-family: 'Inter';
 font-style: normal;
-font-size: 28px;
-padding:70px 0;
+font-weight:300px;
+font-size: 25px;
+line-height: 44px;
 align-items: center;
 text-align: center;
 color: #001664;}
@@ -86,3 +95,5 @@ height: 400px;}
 .hoursbtn:hover{
   background-color:background: rgba(0, 195, 161, 0.62);
 }
+
+
