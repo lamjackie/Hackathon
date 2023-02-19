@@ -19,7 +19,7 @@ p{font-family: 'Inter';
 font-style: normal;
 font-weight:200;
 font-size: 22px;
-line-height: 39px;}
+line-height: 20px;}
  
 .team-greet {
 text-align: center;}
@@ -54,8 +54,7 @@ font-weight: 400;
 font-size: 24px;
 line-height: 29px;
 
-color: #000000;
-}
+color: #000000;}
   
 .color-block {
 background-color:#54D4F0;
@@ -66,7 +65,8 @@ font-family: 'Inter';
 font-style: normal;
 font-weight:300;
 font-size: 25px;
-line-height: 44px;
+padding: 218px 0px;
+vertical-align: middle;
 align-items: center;
 text-align: center;
 color: #001664;}
