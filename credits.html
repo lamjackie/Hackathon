@@ -81,18 +81,14 @@
     
 <br>
 
-    <button type="button" onclock="firstfunction()">Submit</button>
-    
-    <p id="output"></p>
-    <p id="output2"></p>
-    <p id="output3"></p>
-    <p id="output4"></p>
-    <p id="output5"></p>
-    <p id="output6"></p>
-    <p id="output7"></p>
-    
 <script>
-function firstfunction() {
+var button = document.createElement("button");
+button.innerHTML = "Submit";
+
+var body = document.getElementsByTagName("body")[0];
+body.appendChild(button);
+
+  button.addEventListener ("click", function() {
   var credreqen = document.getElementById("credreqen").value;
   var credneeden = document.getElementById("credneeden").value;
   var credfinen = document.getElementById("credfinen").value;
@@ -130,10 +126,10 @@ function firstfunction() {
   document.getElementById("output5").innerHTML = credneedar
   document.getElementById("output6").innerHTML = credneedct
   document.getElementById("output7").innerHTML = credneeden
-}
-    </script>
+});
+</script>
     
-    <button type="button" onclick="myFunction">Add Row</button>
+<button type="button" onclick="myFunction">Add Row</button>
 
 <script>
 function myFunction() {
