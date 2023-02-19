@@ -37,43 +37,43 @@
       </tr>
       <tr id="creditstr">
         <td id="creditstd"><input type="number" id="credreqen" credreqen="credreqen"></td>
-        <td id="creditstd"><input type="number" id="credneeden" credneeden="credneeden"></td>
+        <td id="creditstd"><p id="credneeden"></p></td>
         <td id="creditstd"><input type="number" id="credfinen" credfinen="credfinen"></td>
         <td id="creditstd">English</td>
       </tr>
       <tr id="creditstr">
         <td id="creditstd"><input type="number" id="credreqma" credreqma="credreqma"></td>
-        <td id="creditstd"><input type="number" id="credneedma" credneedma="credneedma"></td>
+        <td id="creditstd"><p id="credneedma"></p></td>
         <td id="creditstd"><input type="number" id="credfinma" credfinma="credfinma"></td>
         <td id="creditstd">Math</td>
       </tr>
       <tr id="creditstr">
         <td id="creditstd"><input type="number" id="credreqsc" credreqsc="credreqsc"></td>
-        <td id="creditstd"><input type="number" id="credneedsc" credneedsc="credneedsc"></td>
+        <td id="creditstd"><p id="credneedsc"></p></td>
         <td id="creditstd"><input type="number" id="credfinsc" credfinsc="credfinsc"></td>
         <td id="creditstd">Science</td>
       </tr>
       <tr id="creditstr">
         <td id="creditstd"><input type="number" id="credreqhi" credreqhi="credreqhi"></td>
-        <td id="creditstd"><input type="number" id="credneedhi" credneedhi="credneedhi"></td>
+        <td id="creditstd"><p id="credneedhi"></p></td>
         <td id="creditstd"><input type="number" id="credfinhi" credfinhi="credfinhi"></td>
         <td id="creditstd">History</td>
       </tr>
       <tr id="creditstr">
         <td id="creditstd"><input type="number" id="credreqar" credreqar="credreqar"></td>
-        <td id="creditstd"><input type="number" id="credneedar" credneedar="credneedar"></td>
+        <td id="creditstd"><p id="credneedar"></p></td>
         <td id="creditstd"><input type="number" id="credfinar" credfinar="credfinar"></td>
         <td id="creditstd">Arts</td>
       </tr>
       <tr id="creditstr">
         <td id="creditstd"><input type="number" id="credreqct" credreqct="credreqct"></td>
-        <td id="creditstd"><input type="number" id="credneedct" credneedct="credneedct"></td>
+        <td id="creditstd"><p id="credneedct"></p></td>
         <td id="creditstd"><input type="number" id="credfinct" credfinct="credfinct"></td>
         <td id="creditstd">CTE</td>
       </tr>
       <tr id="creditstr">
         <td id="creditstd"><input type="number" id="credreqpe" credreqpe="credreqpe"></td>
-        <td id="creditstd"><input type="number" id="credneedpe" credneedpe="credneepe"></td>
+        <td id="creditstd"><p id="credneedpe"></p></td>
         <td id="creditstd"><input type="number" id="credfinpe" credfinpe="credfinpe"></td>
         <td id="creditstd">PE</td>
       </tr>
@@ -119,24 +119,15 @@ body.appendChild(button);
   credneedct = credreqct - credfinct;
   credneedpe = credreqpe - credfinpe;
   
-  document.getElementById("output").innerHTML = credneeden
-  document.getElementById("output2").innerHTML = credneedma
-  document.getElementById("output3").innerHTML = credneedsc
-  document.getElementById("output4").innerHTML = credneedhi
-  document.getElementById("output5").innerHTML = credneedar
-  document.getElementById("output6").innerHTML = credneedct
-  document.getElementById("output7").innerHTML = credneeden
+  document.getElementById("credneeden").innerHTML = credneeden
+  document.getElementById("credneedma").innerHTML = credneedma
+  document.getElementById("credneedsc").innerHTML = credneedsc
+  document.getElementById("credneedhi").innerHTML = credneedhi
+  document.getElementById("credneedar").innerHTML = credneedar
+  document.getElementById("credneedct").innerHTML = credneedct
+  document.getElementById("credneedpe").innerHTML = credneeden
 });
 </script>
- 
-    <p id="output"></p>
-    <p id="output2"></p>
-    <p id="output3"></p>
-    <p id="output4"></p>
-    <p id="output5"></p>
-    <p id="output6"></p>
-    <p id="output7"></p>
-    
     
 <button type="button" onclick="myFunction">Add Row</button>
 
