@@ -123,5 +123,8 @@ height: 400px;}
   background-color:rgba(0, 195, 161, 0.62);
 }
 
-.owl
+.owl {
+object-fit: cover;
+object-position: 50% 10%;
+}
 
