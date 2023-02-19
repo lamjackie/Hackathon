@@ -22,7 +22,10 @@ font-size: 22px;
 line-height: 20px;}
  
 .team-greet {
-text-align: center;}
+text-align: center;
+font-family: 'Barlow';
+font-weight: 700;
+}
 
 .team-td {font-family: 'Inter';
 font-style: normal;
