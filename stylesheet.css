@@ -54,3 +54,9 @@ display: flex;
 align-items: center;
 text-align: center;
 color: #001664;}
+  
+.bunny {position: absolute;
+width: 472px;
+height: 469px;
+left: 118px;
+top: 223px;}
