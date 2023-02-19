@@ -32,13 +32,19 @@ font-family: 'Barlow';
 font-weight: 700;
 }
 
-.team-td {font-family: 'Inter';
+.team-td {
+font-family: 'Barlow';
 font-style: normal;
-font-size:15;}
+font-weight: 500;  
+font-size:15;
+}
 
-.team-td {font-family: 'Inter';
+.team-td2 {
+font-family: 'Inter';
 font-style: normal;
-font-size:13;}
+font-weight: 300;
+font-size:13;
+}
 
 #hourstable, #hourstr, #hourstd, #hoursth {
   border:2px solid black;
