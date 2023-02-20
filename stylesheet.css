@@ -36,7 +36,8 @@ font-size:28px;
 }
 
 .team-td {
-font-family: 'Barlow';
+font-family:'Barlow';
+font-style: normal;
 font-weight: 500;  
 font-size:30;
 }
@@ -91,7 +92,7 @@ color: #000000;}
 .color-block {
 background-color:#54D4F0;
 width: 100%;
-background-size: 100% 200px;
+height: 200px;
 font-family: 'Inter';
 font-style: normal;
 font-weight:300;
