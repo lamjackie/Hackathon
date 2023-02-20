@@ -12,12 +12,12 @@ background-color:#FBFBFB;
   padding-left: 100px;
   padding-right: 100px;}
 
-a.one:link {color:#000000;
+a.one:link {
+color:#000000;
 text-align: center;
-font-family: 'Inter';
-font-style: normal;
+font-family: 'Barlow';
 font-weight: 400;
-font-size: 24px;
+font-size: 16px;
 line-height: 29px;
 
 }
