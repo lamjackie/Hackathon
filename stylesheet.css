@@ -12,7 +12,9 @@ background-color:#FBFBFB;
   padding-left: 100px;
   padding-right: 100px;}
 
-a.one:link {color:#000000}
+a.one:link {color:#000000;
+font-size: 13px;}
+
 a.one.hover {color:#cccccc}
 
 h2 {font-family: 'Barlow';
@@ -37,7 +39,7 @@ font-size:25px;
 font-family: 'Barlow';
 font-style: normal;
 font-weight: 500;  
-font-size:25;
+font-size:30;
 }
 
 .team-td2 {
@@ -97,6 +99,7 @@ font-style: normal;
 font-weight:300;
 font-size: 25px;
 text-align: center;
+align-items: center;
 color: #001664;
 padding:130px;}
   
