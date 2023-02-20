@@ -25,13 +25,13 @@
   
 <table id="hourstable">
   <tr id="hourstr">
-  <th id="hoursth">Description of Service Activity</th>
   <th id="hoursth">Hours Needed</th>
+  <th id="hoursth">Description of Service Activity</th>
   <th id="hourstt">Hours Completed</th>
   </tr>
   <tr id="hourstr">
-    <td id="hourstd"><input type="text" id="hourdesc" hourdesc="hourdesc"/></td>
     <td id="hourstd"><input type="number" id="hourneed" hourneed="hourneed"/></td>
+    <td id="hourstd"><input type="text" id="hourdesc" hourdesc="hourdesc"/></td>
     <td id="hourstd"><input type="number" id="hourcomp" hourcomp="hourcomp"/></td>
   </tr>
 </table>
@@ -51,14 +51,14 @@ var body = document.getElementsByTagName("body")[0];
 body.appendChild(button);
 
   button.addEventListener ("click", function() {
-  var hourdesc = document.getElementById("hourdesc").value;
   var hourneed = document.getElementById("hourneed").value;
+  var hourdesc = document.getElementById("hourdesc").value;
   var hourcomp = document.getElementById("hourcomp").value;
   var hourleft = document.getElementById("hourleft").value;
     
   hourleft = hourneed - hourcomp;
-  document.getElementById("hourdesc").innerHTML = hourdesc;
   document.getElementById("hourneed").innerHTML = hourneed;
+  document.getElementById("hourdesc").innerHTML = hourdesc;
   document.getElementById("hourcomp").innerHTML = hourcomp;
   document.getElementById("hourleft").innerHTML = hourleft;
 
