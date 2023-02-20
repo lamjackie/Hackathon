@@ -50,13 +50,16 @@ font-size:15;
 
 #hourstable, #hourstr, #hourstd, #hoursth {
   border:2px solid black;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
 }
 
 #creditstable, #creditstr, #creditstd, #creditsth {
   border:2px solid black;
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .color-block2 {background-color:#54D4F0;
