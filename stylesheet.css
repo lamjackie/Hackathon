@@ -153,3 +153,11 @@ button {
 #colorp {
   padding-top: 80px;
 }
+
+.aboutdesc {
+  color:#001664;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 30px;
+  
+}
