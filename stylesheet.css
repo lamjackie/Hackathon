@@ -146,7 +146,7 @@ height: 400px;}
 
 button {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
   color:#001664;
   margin-top: 20px;
   line-height: 60px;
