@@ -151,6 +151,7 @@ button {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   padding: 0 40px;
+  display:inline-block;
   background: #54D4F0;
   border: none;
   border-radius:10px;
