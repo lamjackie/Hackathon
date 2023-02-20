@@ -13,19 +13,19 @@ background-color:#FBFBFB;
   padding-right: 100px;}
 
 a.one:link {color:#000000;
-font-size: 20px;}
+font-size: 16px;}
 
 a.one.hover {color:#cccccc}
 
 h2 {font-family: 'Barlow';
 font-style: normal;
 font-weight: 700;
-font-size: 70px;}
+font-size: 35px;}
 
 .Path {font-family: 'Barlow';
 font-style: normal;
 font-weight:400;
-font-size: 30px;
+font-size: 25px;
 line-height: 20px;}
  
 .team-greet {
@@ -91,7 +91,7 @@ color: #000000;}
 .color-block {
 background-color:#54D4F0;
 width: 100%;
-background-size: 100% 10%;
+background-size: 100% 40%;
 font-family: 'Inter';
 font-style: normal;
 font-weight:300;
