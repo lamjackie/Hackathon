@@ -145,6 +145,7 @@ button {
   padding: 0 40px;
   background: #54D4F0;
   border: none;
+  border-radius:10px;
 }
 
 #colorp {
